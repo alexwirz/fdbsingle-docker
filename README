@@ -1,0 +1,5 @@
+Dockerfile for a single foundationdb instance (based on https://github.com/relateiq/docker-foundationdb-sql).
+
+Use ./build-docker.sh to build the image.
+Use ./run-docker.sh to start the container.
+Run fdbcli --exec "status" to check if database is up and available.
